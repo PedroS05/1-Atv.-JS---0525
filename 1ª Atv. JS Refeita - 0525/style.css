@@ -1,0 +1,107 @@
+body {
+  background-color: #121212;
+  color: #f1f1f1;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+}
+
+h1, h2 {
+  color: #f7df1e;
+  text-align: center;
+}
+
+form {
+  background-color: #1e1e1e;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(247, 223, 30, 0.2);
+  margin-bottom: 20px;
+}
+
+input {
+  display: block;
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #555;
+  background-color: #2a2a2a;
+  color: #f1f1f1;
+}
+
+input:focus {
+  outline: none;
+  border-color: #f7df1e;
+}
+
+button {
+  background-color: #f7df1e;
+  color: #121212;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  margin: 5px 0;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #ffe600;
+}
+
+#mensagem {
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.sucesso {
+  background-color: #1f2f1f;
+  border-left: 5px solid #0f0;
+  color: #0f0;
+}
+
+.erro {
+  background-color: #2f1f1f;
+  border-left: 5px solid #ff4d4d;
+  color: #ff4d4d;
+}
+
+
+.imagem-destaque {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.imagem-destaque img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+#form-calculadora {
+  background-color: #1e1e1e;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  box-shadow: 0 0 10px rgba(247, 223, 30, 0.2);
+}
+
+#form-calculadora input {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #2a2a2a;
+  color: #f1f1f1;
+  border: 1px solid #555;
+}
+
+#resultado-da-calc {
+  font-weight: bold;
+  margin-top: 10px;
+}

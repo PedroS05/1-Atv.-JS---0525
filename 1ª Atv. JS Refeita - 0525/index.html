@@ -1,0 +1,60 @@
+<html lang="pt-BR"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividades com JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <style type="text/css" id="operaUserStyle"></style></head>
+<body>
+    <header>
+
+    <section class="imagem-destaque">
+        <img src="https://cdn.sanity.io/images/3do82whm/next/a69e3ba2441d35dd1a7945e826064708f30c10a9-1000x667.jpg">
+    </section>
+
+        <h1 id="titulo-principal">Aprendendo JavaScript</h1>
+        <p>Interaja com os elementos e aprenda na prática!</p>
+    </header>
+    <main>
+        <section class="caixa">
+            <h2>Formulário de Cadastro</h2>
+            <form id="formulario">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" placeholder="Digite seu nome">
+
+                <label for="idade">Idade:</label>
+                <input type="number" id="idade" placeholder="Digite sua idade">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="exemplo@email.com">
+
+                <button type="submit">Enviar</button>
+            </form>
+            <div id="mensagem"></div>
+        </section>
+
+        <section class="caixa">
+            <h2>Interações com JavaScript</h2>
+            <button id="botao-alerta">Exibir Alerta</button>
+            <button id="botao-mudar-titulo">Mudar Texto do Título</button>
+            <button id="botao-mudar-estilo">Mudar Cores do Formulário</button>
+            <button id="botao-esconder-form">Esconder/Mostrar Formulário</button>
+            <button id="botao-validar-dinamico">Validar Campos com Cores</button>
+            <button id="botao-dados">Exibir Dados no HTML</button>
+        </section>
+    </main>
+
+	<h2>Calculadora Simples</h2>
+	<form id="form-calculadora">
+		<input type="number" id="n1" placeholder="Digite o primeiro valor">
+		<input type="number" id="n2" placeholder="Digite o segundo valor">
+		<button type="button" id="botao-calcular">Somar(+)</button>
+        <button type="button" id="botao-diminuir">Diminuir(-)</button>
+        <button type="button" id="botao-multiplicar">Multiplicar(*)</button>
+        <input type="text" id="resultado" placeholder="Resultado da calculadora">
+	</form>
+
+	<p id="resultado-da-calc"></p>
+   
+</body>
+</html>
